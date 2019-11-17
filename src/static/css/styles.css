@@ -1,0 +1,69 @@
+.App {
+  /* text-align: center;
+  background-color: #a2a0a0;
+  min-height: 99vh; */
+  font-family: cursive;
+}
+
+.movieslist {
+  width: 900px;
+  margin: 30px auto;
+  max-width: 100%;
+  /* box-shadow: 0 0 60px 0px; */
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #e8e8e8;
+  margin: 1px 0;
+}
+
+li:nth-child(odd) {
+  background-color: #efefef;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+.movielist {
+  background-color: #2d418c;
+  padding: 15px 20px;
+  font-size: 20px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.sitename {
+  font-weight: 600;
+  font-size: 30px;
+}
+.addmovies input,
+.addmovies button {
+  padding: 10px;
+  font-size: 16px;
+  font-family: cursive;
+}
+.addmovies form {
+  display: inline-block;
+  background-color: #1d6c8a;
+  padding: 20px 40px;
+  border-radius: 50px;
+  margin-top: 30px;
+  box-shadow: 0 0 60px -5px inset;
+}
+button {
+  background-color: #9dceea;
+  border: 2px solid #9dceea;
+  /* color: #fff; */
+  /* font-size: 16px; */
+  width: 100px;
+  /* height: 45px; */
+  cursor: pointer;
+  /* border-radius: 0 5px 5px 0; */
+}
