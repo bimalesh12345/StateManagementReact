@@ -67,3 +67,6 @@ button {
   cursor: pointer;
   /* border-radius: 0 5px 5px 0; */
 }
+input.error {
+  border: 2px solid red;
+}
